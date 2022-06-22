@@ -250,45 +250,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="../vendor/bootstrap/js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../vendor/bootstrap/js/mdb.js"></script>
     <!--Custom scripts-->
-    <script>
-
-    document.getElementById('status').innerHTML = "Sending...";
-    formData = {
-        'name'     : $('input[name=name]').val(),
-        'email'    : $('input[name=email]').val(),
-        'subject'  : $('input[name=subject]').val(),
-        'message'  : $('textarea[name=message]').val()
-    };
-
-
-   $.ajax({
-    url : "mail.php",
-    type: "POST",
-    data : formData,
-    success: function(data, textStatus, jqXHR)
-    {
-
-        $('#status').text(data.message);
-        if (data.code) //If mail was sent successfully, reset the form.
-        $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-    },
-    error: function (jqXHR, textStatus, errorThrown)
-    {
-        $('#status').text(jqXHR);
-    }
-});
-
-
-
-}
-    </script>
   </body>
 </html>
