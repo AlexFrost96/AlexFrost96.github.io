@@ -64,6 +64,7 @@ body {
 .ss_second_half{
     margin-left: 8px;
 }
+
 .ss_100{
   width: 100%;
   display: flex; 
@@ -73,13 +74,13 @@ body {
 .ss_65{
   width: 65%;
   height: 240px;
-  margin-left: 16px;
+/*  margin-left: 16px;*/
 }
 .ss_35{
   width: 35%;
   height: 240px;
   margin-left: 8px;
-  margin-right: 16px;
+/*  margin-right: 16px;*/
 }
 .ss_third_half{
     width: 50%;
