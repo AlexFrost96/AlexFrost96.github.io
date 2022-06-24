@@ -1,6 +1,10 @@
 body {
     padding-top: 54px;
 }
+nav + .container.mt-5 {
+  min-height: calc(100vh - 40px);
+}
+
 #loading {
   position: fixed;
   display: flex;
