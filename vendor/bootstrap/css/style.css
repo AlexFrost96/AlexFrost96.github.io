@@ -32,6 +32,9 @@ nav + .container.mt-5 {
       background-position: center center;
       background-size: cover;
     }
+    .ss_35{
+      margin-left: 8px;
+    }
 }
 
 .carousel-inner img {
@@ -83,7 +86,7 @@ nav + .container.mt-5 {
 .ss_35{
   width: 35%;
   height: 240px;
-  margin-left: 8px;
+/*  margin-left: 8px;*/
 /*  margin-right: 16px;*/
 }
 .ss_third_half{
