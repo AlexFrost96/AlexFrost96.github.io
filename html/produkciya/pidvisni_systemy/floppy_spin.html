@@ -217,12 +217,15 @@
             <a href="https://www.facebook.com/vidvikna" class="facebook" title="Ми в Facebook"><i class="fa fa-facebook-official"></i></a>
         </div>
         <div class="footer-copyright">
-            <p>© 2022 Виробнича фірма ВИД </p>
+            <p>© <span id="year"></span> Виробнича фірма ВИД </p>
         </div>
     </footer>
 
 
     <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript">
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
     <script src="../../../vendor/jquery/jquery.min.js"></script>
     <script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     
