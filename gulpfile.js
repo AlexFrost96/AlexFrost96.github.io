@@ -4,13 +4,13 @@ var pkg = require('./package.json');
 
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
-gulp.task('copy', function() {
+gulp.task('copy', function () {
   gulp.src([
-      'node_modules/bootstrap/dist/**/*',
-      '!**/npm.js',
-      '!**/bootstrap-theme.*',
-      '!**/*.map'
-    ])
+    'node_modules/bootstrap/dist/**/*',
+    '!**/npm.js',
+    '!**/bootstrap-theme.*',
+    '!**/*.map'
+  ])
     .pipe(gulp.dest('vendor/bootstrap'))
 
   gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
@@ -21,7 +21,7 @@ gulp.task('copy', function() {
 gulp.task('default', ['copy']);
 
 // Configure the browserSync task
-gulp.task('browserSync', function() {
+gulp.task('browserSync', function () {
   browserSync.init({
     server: {
       baseDir: ''
@@ -30,7 +30,7 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync'], function() {
+gulp.task('dev', ['browserSync'], function () {
   // Reloads the browser whenever HTML or CSS files change
   gulp.watch('css/*.css', browserSync.reload);
   gulp.watch('*.html', browserSync.reload);
