@@ -173,13 +173,14 @@ body {
   background: rgba(0, 0, 0, 0.44);
 }
 
-.metal_profile>a p {
-  display: none;
-  color: white;
+.metal_profile {
+  position: relative;
+  display: inline-block;
 }
 
-.metal_profile>a {
+.metal_profile a {
   text-decoration: none;
+  display: block; /* Забезпечує, що площа наведеного елемента охоплює всю картинку */
 }
 
 .metal_profile a img {
@@ -190,22 +191,25 @@ body {
   transition: all 1s ease;
 }
 
-.nav-link:hover {
-  color: #212529;
-}
-
 .metal_profile a:hover img {
-
   -webkit-filter: opacity(25%);
-
 }
 
-.metal_profile>a:hover p {
-  display: block;
-  position: relative;
+.metal_profile a p {
+  display: none; /* Сховати за замовчуванням */
+}
+
+.metal_profile a:hover p {
+  display: block; /* Показати при наведенні */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрує текст по вертикалі та горизонталі */
   text-align: center;
-  margin-top: -140px;
   background-color: rgba(0, 0, 0, 0.44);
+  color: white;
+  width: 94%;
+  z-index: 1; /* Задає порядок відображення, щоб текст був поверх зображення */
 }
 
 @media (max-width:767px) {
