@@ -21,6 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-230974778-1">
   </script>
   <script>
@@ -33,9 +34,9 @@
 </head>
 
 <body>
-  <div id="loading">
+  <!-- <div id="loading">
     <img id="loading-image" src="../vendor/bootstrap/css/img/ajax-loader.gif" alt="Завантаження" />
-  </div>
+  </div> -->
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -180,403 +181,367 @@
           <div class="tab-pane active" id="photo" role="tabpanel">
             <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozsuvni_vikna.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozsuvni_vikna.jpg"
-                  alt="Розсувні вікна, автоматичні вікна типу гільйотина зразок 1" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozsuvni_vikna.jpg"
+                  alt="Розсувні вікна, автоматичні вікна типу гільйотина зразок 1" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozsuvni_vikna_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozsuvni_vikna_1.jpg"
-                  alt="Розсувні вікна, автоматичні вікна типу гільйотина зразок 2" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozsuvni_vikna_1.jpg"
+                  alt="Розсувні вікна, автоматичні вікна типу гільйотина зразок 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozsuvni_vikna_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozsuvni_vikna_2.jpg"
-                  alt="Розсувні вікна, автоматичні вікна типу гільйотина зразок 3" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozsuvni_vikna_2.jpg"
+                  alt="Розсувні вікна, автоматичні вікна типу гільйотина зразок 3" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/kvartyra36_1.jpeg">
-                <img src="../vendor/bootstrap/css/img/slider/kvartyra36_1.jpeg"
-                  alt="Роздвижні вікна 1, ресторан Квартира 36 м.Біла Церква" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/kvartyra36_1.jpeg"
+                  alt="Роздвижні вікна 1, ресторан Квартира 36 м.Біла Церква" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/kvartyra36_2.jpeg">
-                <img src="../vendor/bootstrap/css/img/slider/kvartyra36_2.jpeg"
-                  alt="Роздвижні вікна 2, ресторан Квартира 36 м.Біла Церква" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/kvartyra36_2.jpeg"
+                  alt="Роздвижні вікна 2, ресторан Квартира 36 м.Біла Церква" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/kvartyra36_3.jpeg">
-                <img src="../vendor/bootstrap/css/img/slider/kvartyra36_3.jpeg"
-                  alt="Роздвижні вікна 3, ресторан Квартира 36 м.Біла Церква" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/kvartyra36_3.jpeg"
+                  alt="Роздвижні вікна 3, ресторан Квартира 36 м.Біла Церква" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/kvartyra36_4.jpeg">
-                <img src="../vendor/bootstrap/css/img/slider/kvartyra36_4.jpeg"
-                  alt="Роздвижні вікна 4, ресторан Квартира 36 м.Біла Церква" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/kvartyra36_4.jpeg"
+                  alt="Роздвижні вікна 4, ресторан Квартира 36 м.Біла Церква" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/balkonne_zagorodzhenya.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/balkonne_zagorodzhenya.jpg" alt="" width="293"
+                <img data-src="../vendor/bootstrap/css/img/slider/balkonne_zagorodzhenya.jpg" alt="Балконне загородження" class="lazyload" width="293"
                   height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_1.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_1.jpg" alt="Фото басейну 1" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_2.jpg" alt="Фото басейну 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_3.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_3.jpg" alt="Фото басейну 3" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_4.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_4.jpg" alt="Фото басейну 4" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_1.png">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_1.png" alt="Скління басейну" width="293"
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_1.png" alt="Скління басейну" class="lazyload" width="293"
                   height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_2.png">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_2.png" alt="Скління басейну" width="293"
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_2.png" alt="Скління басейну" class="lazyload" width="293"
                   height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_3.png">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_3.png" alt="Скління басейну" width="293"
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_3.png" alt="Скління басейну" class="lazyload" width="293"
                   height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/baseyn_4.png">
-                <img src="../vendor/bootstrap/css/img/slider/baseyn_4.png" alt="Скління басейну" width="293"
+                <img data-src="../vendor/bootstrap/css/img/slider/baseyn_4.png" alt="Скління басейну" class="lazyload" width="293"
                   height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/fasad_doma.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/fasad_doma.jpg" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/fasad_doma.jpg" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/fasad_1.png">
-                <img src="../vendor/bootstrap/css/img/slider/fasad_1.png" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/fasad_1.png" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery"
                 href="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG"
-                  alt="Скління басейну" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG"
+                  alt="Скління басейну" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/gilotyna_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/gilotyna_1.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/gilotyna_1.jpg" alt="Система типу гільйотина 1" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/gilotyna_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/gilotyna_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/gilotyna_2.jpg" alt="Система типу гільйотина 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/gilotyna_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/gilotyna_3.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/gilotyna_3.jpg" alt="Система типу гільйотина 3" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/gilotyna_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/gilotyna_4.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/gilotyna_4.jpg" alt="Система типу гільйотина 4" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/gilotyna_5.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/gilotyna_5.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/gilotyna_5.jpg" alt="Система типу гільйотина 5" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/gilotyna_6.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/gilotyna_6.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/gilotyna_6.jpg" alt="Система типу гільйотина 6" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nest_proekt_.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/nest_proekt_.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/nest_proekt_.jpg" alt="Фото нестандартного фасаду" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nestandart_proekt_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/nestandart_proekt_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/nestandart_proekt_2.jpg" alt="Система типу гільйотина " class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nestandart_proekt_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/nestandart_proekt_3.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/nestandart_proekt_3.jpg" alt="Фото нестандартного фасаду 3" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nestandart_proekt_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/nestandart_proekt_4.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/nestandart_proekt_4.jpg" alt="Фото нестандартного фасаду 2" class="lazyload" width="293" height="213">
               </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nestandart_proetk_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/nestandart_proetk_1.jpg" alt="" width="293" height="213">
-              </a>
+              <!-- <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nestandart_proetk_1.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/nestandart_proetk_1.jpg" alt="" class="lazyload" width="293" height="213">
+              </a> -->
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka.jpg" alt="Роздвижна москитна сітка" class="lazyload" width="293" height="213">
               </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_1.jpg" alt="" width="293" height="213">
-              </a>
+              <!-- <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_1.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_1.jpg" alt="" class="lazyload" width="293" height="213">
+              </a> -->
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_2.jpg" alt="Фото роздвижної москітної сітки" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_3.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdv_mosk_sitka_3.jpg" alt="Фото роздвижної москітної сітки 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvuzhna_systema_8.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvuzhna_systema_8.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvuzhna_systema_8.jpg" alt="Фото розсувної системи 8" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_1.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_1.jpg" alt="Фото роздвижної системи 1" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_2.jpg" alt="Фото роздвижної системи 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_3.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_3.jpg" alt="Фото роздвижної системи 3" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_4.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_4.jpg" alt="Фото роздвижної системи 4" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_5.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_5.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_5.jpg" alt="Фото роздвижної системи 5" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_6.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_6.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_6.jpg" alt="Фото роздвижної системи 6" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_7.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_7.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_7.jpg" alt="Фото роздвижної системи 7" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_9.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_9.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/rozdvyzhna_systema_9.jpg" alt="Фото роздвижної системи 9" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_pidashky_11.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_pidashky_11.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_pidashky_11.jpg" alt="Фото склянних піддашок 11" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_1.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_1.jpg" alt="Фото склянних піддашок 1" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_12.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_12.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_12.jpg" alt="Фото склянних піддашок 12" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_13.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_13.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_13.jpg" alt="Фото склянних піддашок 13" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_2.jpg" alt="Фото склянних піддашок 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_3.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_3.jpg" alt="Фото склянних піддашок 3" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_4.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_4.jpg" alt="Фото склянних піддашок 4" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_5.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_5.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_5.jpg" alt="Фото склянних піддашок 5" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_6.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_6.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_6.jpg" alt="Фото склянних піддашок 6" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_7.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_7.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_7.jpg" alt="Фото склянних піддашок 7" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_8.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_8.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_8.jpg" alt="Фото склянних піддашок 8" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_9.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_9.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_9.jpg" alt="Фото склянних піддашок 9" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanniy_dakh_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanniy_dakh_1.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanniy_dakh_1.jpg" alt="Фото склянного даху 1" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanniy_dakh_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/sklyanniy_dakh_2.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/sklyanniy_dakh_2.jpg" alt="Фото склянного даху 2" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/skyanni_piddashky_5.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/skyanni_piddashky_5.jpg" alt="" width="293" height="213">
+                <img data-src="../vendor/bootstrap/css/img/slider/skyanni_piddashky_5.jpg" alt="Фото склянних піддашок 5" class="lazyload" width="293" height="213">
               </a>
               <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/steam_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/steam_1.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetna_peregorodka_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/tualetna_peregorodka_1.jpg" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetni_peregorodky3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/tualetni_peregorodky3.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_2.jpg" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_4.jpg" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_2.png">
-                <img src="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_2.png"
-                  alt="Офісні перегородки. ТЦ Центр Сіті, м. Біла Церква." width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_3.png">
-                <img src="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_3.png"
-                  alt="Офісні перегородки. ТЦ Центр Сіті, м. Біла Церква." width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/vikno_na_dakh_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/vikno_na_dakh_1.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/vikno_na_dakh_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/vikno_na_dakh_2.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_1.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_10.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_10.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_2.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_3.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_4.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_5.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_5.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_6.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_6.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_7.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_7.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_8.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_8.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_9.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_9.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii_2.jpg" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii.jpg" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_11_mini.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/yukatana_11_mini.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny_2.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_1.jpg"
-                  alt="Алюмінієві конструкції 2" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_2.jpg"
-                  alt="Алюмінієві конструкції 3" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_3.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_3.jpg"
-                  alt="Алюмінієві конструкції 4" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_4.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_4.jpg"
-                  alt="Алюмінієві конструкції 5" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_5.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_5.jpg"
-                  alt="Алюмінієві конструкції 6" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_6.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_6.jpg"
-                  alt="Алюмінієві конструкції 7" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_7.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_7.jpg"
-                  alt="Алюмінієві конструкції 8" width="293" height="213">
-              </a>
-
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_1.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_1.jpg"
-                  alt="Металлопластиковые двери 2" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_4.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_4.JPG"
-                  alt="Металлопластиковые двери 4" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/automaticheskie_dveri.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/automaticheskie_dveri.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/balkon.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/balkon.JPG" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery"
-                href="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/fasad_doma.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/fasad_doma.jpg" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/teplica.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/teplica.JPG" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/teplica_1.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/teplica_1.JPG" alt="" width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_2.jpg" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_okna.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/aluminievye_okna.JPG" alt="" width="293" height="213">
-              </a>
-
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_1.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_1.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_2.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_2.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery"
-                href="../vendor/bootstrap/css/img/slider/nestandartnye_metalloplastikovye_dveri_2.jpg">
-                <img src="../vendor/bootstrap/css/img/slider/nestandartnye_metalloplastikovye_dveri_2.jpg" alt=""
-                  width="293" height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_4.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_4.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_2.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_2.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_3.JPG">
-                <img src="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_3.JPG" alt="" width="293"
-                  height="213">
-              </a>
-              <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
-                <a href="../vendor/bootstrap/css/img/slider/treugolnoe_okno.jpg" data-fancybox="gallery">
-                  <img src="../vendor/bootstrap/css/img/slider/treugolnoe_okno.jpg" alt="" width="213" height="293">
+                <img data-src="../vendor/bootstrap/css/img/slider/steam_1.jpg" alt="Фото розсувної системи для кальян бару Steam" class="lazyload" width="293" height="213">
                 </a>
-                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_2.jpg">
-                  <img src="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_2.jpg" alt="" width="213"
-                    height="293">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetna_peregorodka_1.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/tualetna_peregorodka_1.jpg" alt="Фото туалетної перегородки 1" class="lazyload" width="293" height="213">
                 </a>
-                <a data-fancybox="gallery"
-                  href="../vendor/bootstrap/css/img/slider/metalloplastikovoe_arochnoe_okno.jpg">
-                  <img src="../vendor/bootstrap/css/img/slider/metalloplastikovoe_arochnoe_okno.jpg" alt="" width="213"
-                    height="293">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetni_peregorodky3.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/tualetni_peregorodky3.jpg" alt="Фото туалетної перегородки 3" class="lazyload" width="293" height="213">
                 </a>
-              </div>
-              <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
-                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_1.jpg">
-                  <img src="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_1.jpg" alt="" width="213"
-                    height="293">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_2.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_2.jpg" alt="Фото туалетної перегородки 2" class="lazyload" width="293" height="213">
                 </a>
-                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii.JPG">
-                  <img src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii.JPG" alt="" width="213"
-                    height="293">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_4.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/tualetni_peregorodky_4.jpg" alt="Фото туалетної перегородки 4" class="lazyload" width="293" height="213">
                 </a>
-                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_14.png">
-                  <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_14.png" alt="" width="213"
-                    height="293">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_2.png">
+                <img data-src="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_2.png" alt="Офісні перегородки. ТЦ Центр Сіті, м. Біла Церква." class="lazyload" width="293" height="213">
                 </a>
-              </div>
-              <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
-                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_15.png">
-                  <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_15.png" alt="" width="293"
-                    height="213">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_3.png">
+                <img data-src="../vendor/bootstrap/css/img/slider/ofisni_peregorodky_3.png" alt="Офісні перегородки. ТЦ Центр Сіті, м. Біла Церква." class="lazyload" width="293" height="213">
                 </a>
-                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_16.png">
-                  <img src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_16.png" alt="" width="293"
-                    height="213">
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/vikno_na_dakh_1.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/vikno_na_dakh_1.jpg" alt="Фото вікна на даху 1" class="lazyload" width="293" height="213">
                 </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/vikno_na_dakh_2.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/vikno_na_dakh_2.jpg" alt="Фото вікна на даху 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_1.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_1.jpg" alt="Фото Юкатана 1" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_10.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_10.jpg" alt="Фото Юкатана 10" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_2.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_2.jpg" alt="Фото Юкатана 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_3.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_3.jpg" alt="Фото Юкатана 3" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_4.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_4.jpg" alt="Фото Юкатана 4" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_5.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_5.jpg" alt="Фото Юкатана 5" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_6.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_6.jpg" alt="Фото Юкатана 6" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_7.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_7.jpg" alt="Фото Юкатана 7" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_8.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_8.jpg" alt="Фото Юкатана 8" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_9.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_9.jpg" alt="Фото Юкатана 9" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii_2.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii_2.jpg" alt="Фото алюмінієвих конструкцій Юкатана 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/ukatana_aluminievi_konstrukcii.jpg" alt="Фото алюмінієвих конструкцій Юкатана" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/yukatana_11_mini.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/yukatana_11_mini.jpg" alt="Фото Юкатана 11" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny.jpg">
+                <img data-src="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny.jpg" alt="Фото Пентагон гільйотини" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny_2.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/pentagon_gilyotiny_2.jpg" alt="Фото Пентагон гільйотини 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_1.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_1.jpg" alt="Алюмінієві конструкції 1" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_2.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_2.jpg" alt="Алюмінієві конструкції 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_3.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_3.jpg" alt="Алюмінієві конструкції 3" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_4.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_4.jpg" alt="Алюмінієві конструкції 4" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_5.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_5.jpg" alt="Алюмінієві конструкції 5" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_6.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_6.jpg" alt="Алюмінієві конструкції 6" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_7.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii_7.jpg" alt="Алюмінієві конструкції 7" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_1.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_1.jpg" alt="Металлопластиковые двери 1" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_4.JPG"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_4.JPG" alt="Металлопластиковые двери 4" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/automaticheskie_dveri.jpg"></a>
+                <img data-src="../vendor/bootstrap/css/img/slider/automaticheskie_dveri.jpg" alt="Фото автоматичних дверей" class="lazyload" width="293" height="213">
+                </a>
+              <!-- <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/balkon.JPG">
+                <img data-src="../vendor/bootstrap/css/img/slider/balkon.JPG" alt="" class="lazyload" width="293" height="213">
+              </a> -->
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/dom_s_aluminievymi_konsrtukciyami.JPG" alt="Будинок з алюмінієвими конструкціями" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/fasad_doma.jpg"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/fasad_doma.jpg" alt="Фасад будинку" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/teplica.JPG">
+                  <img data-src="../vendor/bootstrap/css/img/slider/teplica.JPG" alt="Теплиця" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/teplica_1.JPG">
+                  <img data-src="../vendor/bootstrap/css/img/slider/teplica_1.JPG" alt="Теплиця 1" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_2.jpg">
+                  <img data-src="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_2.jpg" alt="Металопластикові вікна 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_okna.JPG">
+                  <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_okna.JPG" alt="Алюмінієві вікна" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_1.JPG"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_1.JPG" alt="Металеві двері 1" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_2.JPG"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_2.JPG" alt="Металеві двері 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/nestandartnye_metalloplastikovye_dveri_2.jpg"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/nestandartnye_metalloplastikovye_dveri_2.jpg" alt="Нестандартні металопластикові двері 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_4.JPG"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/metallicheskiye_dveri_4.JPG" alt="Металеві двері 4" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii.JPG">
+                  <img data-src="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii.JPG" alt="Розсувні конструкції" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_2.JPG">
+                  <img data-src="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_2.JPG" alt="Розсувні конструкції 2" class="lazyload" width="293" height="213">
+                </a>
+                <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_3.JPG"></a>
+                  <img data-src="../vendor/bootstrap/css/img/slider/razdvizhnye_konstrukcii_3.JPG" alt="Розсувні конструкції 3" class="lazyload" width="293" height="213">
+                </a>
+                <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
+                  <a href="../vendor/bootstrap/css/img/slider/treugolnoe_okno.jpg" data-fancybox="gallery"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/treugolnoe_okno.jpg" alt="Трикутне вікно" class="lazyload" width="213" height="293">
+                  </a>
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_2.jpg"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/metalloplastikovye_dveri_2.jpg" alt="Металопластикові двері 2" class="lazyload" width="213" height="293">
+                  </a>
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovoe_arochnoe_okno.jpg"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/metalloplastikovoe_arochnoe_okno.jpg" alt="Металопластикове арочне вікно" class="lazyload" width="213" height="293">
+                  </a>
+                </div>
+                <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_1.jpg"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/metalloplastikovye_okna_1.jpg" alt="Металопластикові вікна 1" class="lazyload" width="213" height="293">
+                  </a>
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii.JPG"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/aluminievye_konstrukcii.JPG" alt="Алюмінієві конструкції" class="lazyload" width="213" height="293">
+                  </a>
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_14.png"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_14.png" alt="Скляні піддашки 14" class="lazyload" width="213" height="293">
+                  </a>
+                </div>
+                <div class="col-md-12 d-flex justify-content-md-around flex-wrap mt-3 gallery">
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_15.png"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_15.png" alt="Скляні піддашки 15" class="lazyload" width="293" height="213">
+                  </a>
+                  <a data-fancybox="gallery" href="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_16.png"></a>
+                    <img data-src="../vendor/bootstrap/css/img/slider/sklyanni_piddashky_16.png" alt="Скляні піддашки 16" class="lazyload" width="293" height="213">
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -750,11 +715,11 @@
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-  <script>
+  <!-- <script>
     $(window).on('load', function () {
       $('#loading').hide();
     }) 
-  </script>
+  </script> -->
 
 </body>
 
