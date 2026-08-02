@@ -1,0 +1,6 @@
+.git/
+*.png
+*.jpg
+*.jpeg
+*.svg
+vendor/
