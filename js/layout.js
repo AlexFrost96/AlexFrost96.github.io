@@ -10,24 +10,7 @@
   const scriptSrc = scriptElement ? scriptElement.getAttribute('src') : 'js/layout.js';
   const rootPrefix = scriptSrc.replace('js/layout.js', '');
 
-  // 2. Inject CSS Styles and Font Awesome into Head
-  const styles = [
-    { id: 'fav', rel: 'shortcut icon', href: `${rootPrefix}vendor/bootstrap/css/img/favicon.ico`, type: 'image/x-icon' },
-    { id: 'bootstrap-css', rel: 'stylesheet', href: `${rootPrefix}vendor/bootstrap/css/bootstrap.min.css` },
-    { id: 'style-css', rel: 'stylesheet', href: `${rootPrefix}vendor/bootstrap/css/style.css` },
-    { id: 'fa-css', rel: 'stylesheet', href: `${rootPrefix}vendor/bootstrap/css/font-awesome.css` },
-    { id: 'fa-anim-css', rel: 'stylesheet', href: `${rootPrefix}vendor/bootstrap/css/font-awesome-animation.min.css` },
-    { id: 'fonts-css', rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Cuprum&display=swap' },
-    { id: 'fancybox-css', rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css' }
-  ];
-
-  styles.forEach(style => {
-    if (!document.getElementById(style.id)) {
-      const link = document.createElement('link');
-      Object.keys(style).forEach(key => link.setAttribute(key, style[key]));
-      document.head.appendChild(link);
-    }
-  });
+  // Note: Styles are now loaded statically in <head> of each HTML file to avoid FOUC.
 
   // 3. Inject Google Tag Manager (GTM)
   if (!window.gtag) {
